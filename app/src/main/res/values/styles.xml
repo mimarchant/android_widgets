@@ -1,0 +1,56 @@
+<resources>
+    <!-- Blue Theme -->
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:buttonStyle">@style/BlueButtonStyle</item>
+        <item name="android:textViewStyle">@style/BlueTextViewStyle</item>
+        <item name="android:windowBackground">@color/blueBackground</item>
+        <item name="colorSwitchThumbNormal">#FF6200EE</item>
+        <item name="android:colorControlActivated">#FF6200EE</item>
+    </style>
+
+    <style name="BlueButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/blueButton</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BlueTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/blueText</item>
+    </style>
+
+    <!-- Red Theme -->
+    <style name="RedTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:buttonStyle">@style/RedButtonStyle</item>
+        <item name="android:textViewStyle">@style/RedTextViewStyle</item>
+        <item name="android:windowBackground">@color/redBackground</item>
+        <item name="colorSwitchThumbNormal">#FFB00020</item>
+        <item name="android:colorControlActivated">#FFB00020</item>
+    </style>
+
+    <style name="RedButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/redButton</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RedTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/redText</item>
+    </style>
+
+    <!-- Colors -->
+    <color name="blueBackground">#E3F2FD</color>
+    <color name="blueButton">#1976D2</color>
+    <color name="blueText">#0D47A1</color>
+
+    <color name="redBackground">#FFEBEE</color>
+    <color name="redButton">#C62828</color>
+    <color name="redText">#B71C1C</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>

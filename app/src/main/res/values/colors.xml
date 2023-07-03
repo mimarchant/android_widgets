@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Blue Theme Colors -->
+    <color name="blue_primary">#1565C0</color>
+    <color name="blue_primary_dark">#0D47A1</color>
+    <color name="blue_accent">#448AFF</color>
+    <color name="blue_button">#2979FF</color>
+    <color name="blue_text">#0000FF</color>
+    <color name="blue_background">#E3F2FD</color>
+
+    <!-- Red Theme Colors -->
+    <color name="red_primary">#D32F2F</color>
+    <color name="red_primary_dark">#B71C1C</color>
+    <color name="red_accent">#FF5252</color>
+    <color name="red_button">#FF1744</color>
+    <color name="red_text">#FF0000</color>
+    <color name="red_background">#FFEBEE</color>
+
+
+</resources>
